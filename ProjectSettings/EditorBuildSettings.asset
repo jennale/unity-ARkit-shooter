@@ -42,5 +42,8 @@ EditorBuildSettings:
     path: Assets/plugins/UnityARKitPlugin/ARKitRemote/EditorTestScene.unity
     guid: e1efc0006a07a4fc8ab373ea6249a832
   - enabled: 1
+    path: Assets/_scenes/Start.unity
+    guid: 531cf52457aca4c2a81c303aee27f24f
+  - enabled: 1
     path: Assets/_scenes/Game.unity
     guid: 7ce6b299562ee46c4aeae0d58cefb86d

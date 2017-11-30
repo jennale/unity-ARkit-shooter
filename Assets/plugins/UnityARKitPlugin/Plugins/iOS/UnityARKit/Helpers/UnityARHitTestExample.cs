@@ -36,6 +36,9 @@ namespace UnityEngine.XR.iOS
 						y = screenPosition.y
 					};
 
+                    Debug.Log("ARPOint is: " + point.ToString() + " or " + point.x + " " + point.y);
+                    Debug.Log("Touchpoint is: " + touch.position.ToString() + " or " + touch.position.x + " " + touch.position.y);
+                    Debug.Log(screenPosition.ToString());
                     // prioritize reults types
                     ARHitTestResultType[] resultTypes = {
                         //ARHitTestResultType.ARHitTestResultTypeExistingPlaneUsingExtent, 
